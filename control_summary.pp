@@ -9,6 +9,17 @@ benchmark "control_summary_benchmark" {
   ]
 }
 
+benchmark "control_summary_benchmark_2" {
+  title = "Benchmark to test the check summary output in steampipe (updated 5)"
+  children = [
+    control.sample_control_1,
+    control.sample_control_2,
+    control.sample_control_3,
+    control.sample_control_4,
+    control.sample_control_5
+  ]
+}
+
 control "sample_control_1" {
   title         = "Sample control 1"
   description   = "A sample control"
