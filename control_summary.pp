@@ -1,5 +1,5 @@
 benchmark "control_summary_benchmark" {
-  title = "Benchmark to test the check summary output in steampipe"
+  title = "Benchmark to test the check summary output in steampipe (updated 1)"
   children = [
     control.sample_control_1,
     control.sample_control_2,
